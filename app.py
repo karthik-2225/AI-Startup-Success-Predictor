@@ -1,7 +1,14 @@
 import streamlit as st
 import joblib
+st.set_page_config(
+    page_title="AI Startup Success Predictor",
+    page_icon="🚀",
+    layout="centered"
+)
 
 model = joblib.load("models/startup_model.pkl")
+st.title("🚀 AI Startup Success Predictor")
+st.markdown("Predict the probability of startup success using Machine Learning.")
 
 st.title("AI Startup Success Predictor")
 
