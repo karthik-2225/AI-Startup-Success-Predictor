@@ -26,3 +26,8 @@ if st.button("Predict"):
         st.success("Startup likely to succeed 🚀")
     else:
         st.error("Startup may struggle ⚠️")
+        st.markdown("---")
+st.markdown(
+    "<center><b>🚀 Developed by Karthik Enugula</b></center>",
+    unsafe_allow_html=True
+)
