@@ -1,4 +1,10 @@
 import streamlit as st
+st.markdown(
+    """
+    <meta name="google-site-verification" content="HQI8zpNuD3Elmlt3j2UmoIyG_LjdoR_Na5_QVrUL0OQ" />
+    """,
+    unsafe_allow_html=True
+)
 import joblib
 st.set_page_config(
     page_title="AI Startup Success Predictor",
